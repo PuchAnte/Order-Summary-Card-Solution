@@ -16,9 +16,7 @@
 }
 
 body {
-	width: 100dvw;
 	height: 100vh;
-	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -30,19 +28,11 @@ body {
 }
 
 main {
-	/* display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background: url(./images/pattern-background-desktop.svg);
-	background-repeat: no-repeat; */
 	width: 430px;
-	height: 70%;
+	height: auto;
 }
 
 .componentContainer {
-	/* width: 430px;
-	height: 70%; */
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0 3px 30px hsl(224, 7%, 68%);
@@ -78,7 +68,7 @@ h2 {
 	background-color: var(--very-pale-blue);
 	display: flex;
 	height: 80px;
-	padding: 0 20px;
+	justify-content: center;
 	flex-direction: row;
 	align-items: center;
 	gap: 15px;
@@ -157,12 +147,13 @@ h4:hover {
 		height: 150px;
 	}
 	main {
-		width: 200px;
+		width: 300px;
 	}
 	.details div {
-		margin-right: 15px;
+		margin-right: 10px;
 	}
 	.containerDivision {
-		padding: 20px;
+		padding: 21px;
+		gap: 15px;
 	}
 }
