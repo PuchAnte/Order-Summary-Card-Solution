@@ -19,22 +19,30 @@ body {
 	width: 100dvw;
 	height: 100vh;
 	position: relative;
-	background-color: var(--pale-blue);
-	font-family: var(--font-red-hat);
-}
-
-main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background: url(./images/pattern-background-desktop.svg);
 	background-repeat: no-repeat;
+	background-color: var(--pale-blue);
+	font-family: var(--font-red-hat);
+}
+
+main {
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(./images/pattern-background-desktop.svg);
+	background-repeat: no-repeat; */
+	width: 430px;
+	height: 70%;
 }
 
 .componentContainer {
-	width: 430px;
-	height: 70%;
+	/* width: 430px;
+	height: 70%; */
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 0 3px 30px hsl(224, 7%, 68%);
@@ -148,8 +156,8 @@ h4:hover {
 	.illustrationMusic {
 		height: 150px;
 	}
-	.componentContainer {
-		width: 330px;
+	main {
+		width: 200px;
 	}
 	.details div {
 		margin-right: 15px;
