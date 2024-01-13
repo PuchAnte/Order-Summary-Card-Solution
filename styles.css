@@ -23,6 +23,7 @@ body {
 	align-items: center;
 	background: url(./images/pattern-background-desktop.svg);
 	background-repeat: no-repeat;
+	background-size: contain;
 	background-color: var(--pale-blue);
 	font-family: var(--font-red-hat);
 }
